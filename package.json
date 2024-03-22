@@ -1,0 +1,16 @@
+{
+  "name": "small_monitor",
+  "version": "1.0.1",
+  "description": "前端性能监察工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiaocai",
+  "license": "ISC",
+  "dependencies":{
+    "error-stack-parser": "^2.1.4",
+    "rrweb": "^2.0.0-alpha.4",
+    "ua-parser-js": "^1.0.37"
+  }
+}
