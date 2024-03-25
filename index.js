@@ -13,6 +13,7 @@ import { options } from './lib/options.js'
 import { notify } from "./code/subsrcibe";
 import performance from './performance/index.js';
 import recordscreen from './recordscreen/index.js';
+import {log} from './code/customLog.js';
 // 初始化
 function init(options){
     //判断参数是否传入
@@ -76,5 +77,5 @@ nativeTryCatch(() => {
 
 }
 export default {
-    init,install,errorBoundary,use
+    init,install,errorBoundary,use,log
 }
